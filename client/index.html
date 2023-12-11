@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>client</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>client</title>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://meet.jit.si/libs/lib-jitsi-meet.min.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://meet.jit.si/external_api.js"></script>
+  <script>
+    $(document).ready(function () {
+      var domain = "meet.jit.si";
+      var options = {
+        roomName: "JitsiMeetApiExammple",
+        width: 700,
+        height: 700,
+        parentNode: document.querySelector('#meet')
+      }
+      var api = new JitsiMeetExternalAPI(domain, options);
+    });
+  </script>
+</head>
+
+<body>
+  <div id="meet"></div>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
 </html>
