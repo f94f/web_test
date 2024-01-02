@@ -1,4 +1,4 @@
 <!-- Templates should only be responsible for mapping the state to the UI -->
 <template>
-    <h1>JITSI TEST</h1>
+    <h1>Welcome</h1>
 </template>

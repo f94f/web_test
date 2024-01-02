@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\myapp\\bin",
+    "\\myapp\\public",
+    "\\myapp\\public\\images",
+    "\\myapp\\public\\javascripts",
+    "\\myapp\\public\\stylesheets",
+    "\\myapp\\routes",
+    "\\myapp\\views",
+    "\\server"
+  ],
+  "SelectedNode": "\\server\\src",
+  "PreviewInSolutionExplorer": false
+}

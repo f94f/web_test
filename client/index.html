@@ -8,7 +8,7 @@
   <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://meet.jit.si/libs/lib-jitsi-meet.min.js"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://meet.jit.si/external_api.js"></script>
+  <!-- <script src="https://meet.jit.si/external_api.js"></script>
   <script>
     $(document).ready(function () {
       var domain = "meet.jit.si";
@@ -20,12 +20,27 @@
       }
       var api = new JitsiMeetExternalAPI(domain, options);
     });
-  </script>
+  </script> -->
 </head>
 
 <body>
-  <div id="meet"></div>
-  <div id="app"></div>
+  <!-- <div id="meet"></div> -->
+  <div id="app">
+    <h1>Hello App!</h1>
+    <p>
+      <!-- use the router-link component for navigation. -->
+      <!-- specify the link by passing the `to` prop. -->
+      <!-- `<router-link>` will render an `<a>` tag with the correct `href` attribute -->
+      <router-link to="/">Home</router-link>
+      <router-link to="/meet">Meet</router-link>
+      <router-link to="/about">About</router-link>
+      <router-link to="/jitsitest">Test</router-link>
+    </p>
+    <!-- route outlet -->
+    <!-- component matched by the route will render here -->
+    <router-view></router-view>
+  </div>
+  
   <!-- built files will be auto injected -->
 </body>
 
