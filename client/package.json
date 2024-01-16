@@ -5,6 +5,7 @@
   "author": "Felipe <f.mate10@uniandes.edu.co>",
   "private": true,
   "scripts": {
+    "serve": "vue-cli-service serve",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
@@ -15,7 +16,7 @@
   },
   "dependencies": {
     "lib-jitsi-meet": "^1.0.6",
-    "vue": "^2.5.2",
+    "vue": "^3.2.13",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
