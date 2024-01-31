@@ -1,11 +1,11 @@
 <template>
   <div class="scuola">
-    <van-row :gutter="[0, 5]" justify="center">
-      <van-col call="logo_box" span="100">
+    <van-row :gutter="[0, 13]" justify="center">
+      <van-col class = "logo_box" call="logo_box" span="100">
         <LogoBox/>
       </van-col>
       <van-col class="" span="11">
-        <van-row :gutter="[0, 5]">
+        <van-row :gutter="[0, 10]">
           <van-col class="box-2" span="24">
             <IntroBox/>
           </van-col>
@@ -39,6 +39,9 @@ export default {
   .scuola {
     background-color: #ddd4ba;
   }
+  .logo_box {
+    margin-top: 8px;
+  }
 /* .scuola-body{
   padding: 0px 50px;
 }
@@ -56,8 +59,9 @@ export default {
   /* border: 1px solid rgb(0, 0, 0); */
   height: 350px;
 }
+/* contactBox */
 .box-3 {
   border: 1px solid rgb(0, 0, 0);
-  height: 350px;
+  /* height: 350px; */
 }
 </style>
