@@ -298,7 +298,7 @@ export default {
 $sqSize: 16px;
 $contW: 100%;
 $contH: 100%;
-$xSpaces: 24;
+$xSpaces: 29;
 $ySpaces: 14;
 $zSpaces: 19;
 $xAngle: 80deg;
@@ -308,7 +308,7 @@ $bookStart: 6;
 $trans: 0.25s;
 
 // font sizing
-$fFontSize: $sqSize*0.75;
+$fFontSize: $sqSize*0.74;
 $rFontSize: $sqSize*1.5;
 $cntntFontSize: $sqSize*0.7;
 
